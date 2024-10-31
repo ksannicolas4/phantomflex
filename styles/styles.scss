@@ -1,0 +1,153 @@
+@use "./vendor/normalize";
+@use "partials/colors";
+@use "partials/mixins";
+@use "partials/typography";
+
+
+.navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  div { font-family: typography.$title;
+      font-weight: bolder;
+      align-items: center;
+    }
+
+  li {display: inline-block;
+    background-color: black;
+    color: white;
+    } 
+
+  ul {
+    display: flex;
+    gap: 15px;
+}
+  a {font-family: typography.$primary-font;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main_btn {
+    @include mixins.button ();
+    font-family: typography.$primary-font;
+}
+
+.sec_btn {
+    @include mixins.button ();
+    font-family: typography.$primary-font;
+}
+
+
+.above {
+    h1 {font-family: typography.$heading}
+    h2 {font-family: typography.$title}
+    p  {font-family: typography.$primary-font;}
+    p2 {font-family: typography.$title}
+}
+
+.above {
+    display: flex;
+    article { 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;}
+    p {text-align: center;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
