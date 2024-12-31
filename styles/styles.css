@@ -312,29 +312,32 @@ template {
 .navigation {
   padding-left: 20px;
   padding-right: 20px;
-  background-color: black;
-  color: white;
+  background-color: #f8c0ff;
+  color: #FFF496;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navigation div {
+
+div {
   font-family: "Montserrat", san-serif;
   font-weight: bolder;
   align-items: center;
 }
-.navigation li {
+
+li {
   display: inline-block;
-  background-color: black;
   color: white;
 }
-.navigation ul {
+
+ul {
   display: flex;
   gap: 15px;
 }
-.navigation a {
+
+a {
   font-family: "Dosis", san-serif;
-  color: white;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -342,118 +345,103 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.main_btn {
+  background-color: bl;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+  width: 400px;
+  font-family: "Dosis", san-serif;
+  background-color: black;
+}
+.main_btn:hover {
+  background-color: #f8c0ff;
+  color: black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sec_btn {
+  background-color: bl;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+  width: 400px;
+  font-family: "Dosis", san-serif;
+}
+.sec_btn:hover {
+  background-color: #f8c0ff;
+  color: black;
+}
 
 .above h1 {
   font-family: "Marck Script", cursive;
-  font-weight: lighter;
-  color: #ffa500;
-  font-size: 50px;
-  padding-top: 50px;
-    margin: .5px;
 }
 .above h2 {
   font-family: "Montserrat", san-serif;
-  margin: .05px;
-  text-transform: uppercase;
-  font-size: 70px;
 }
-
 .above p {
   font-family: "Dosis", san-serif;
-  padding-left: 300px;
-      padding-right: 300px;
-      display: flex;
-      text-align: center;
-
-
 }
-
 .above p2 {
   font-family: "Montserrat", san-serif;
-  color: #ffa500;
-  margin: 1px;
-  text-decoration: underline;
+}
+.above p3 {
+  font-family: "Montserrat", san-serif;
+}
+.above p4 {
+  font-family: "Montserrat", san-serif;
 }
 
-.above {
-  display: flex;
-}
 .above article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-
-/*# sourceMappingURL=styles.css.map */
-
-.story {
-  margin-right: 100px;
-  padding-top: 60px;
-
+.above p {
+  text-align: center;
+  background-color: #fbd7ff;
+  padding: 15px;
+  width: 80%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main_btn {
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: 5px;
-  width: 80px;
-  font-family: "Dosis", san-serif;
-}
-.main_btn:hover {
-  background-color: gray;
+.above p3 {
+  background-color: #FEBE49;
+  padding: 15px;
+  width: 80%;
 }
 
-.sec_btn {
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: 5px;
-  width: 80px;
-  font-family: "Dosis", san-serif;
+.pay {
+  font-size: 2rem;
+  display: inline-grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
 }
-.sec_btn:hover {
-  background-color: gray;
+
+.above h1 {
+  padding-bottom: 0;
 }
+
+.above p4 {
+  font-size: 3rem;
+}
+
+.above p2 {
+  font-size: 1rem;
+}
+
+.above p {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*=col-] {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

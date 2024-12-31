@@ -7,8 +7,8 @@
 .navigation {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: black;
-    color: white;
+    background-color: #f8c0ff;
+    color: #FFF496;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@
     }
 
   li {display: inline-block;
-    background-color: black;
+    
     color: white;
     } 
 
@@ -29,7 +29,7 @@
     gap: 15px;
 }
   a {font-family: typography.$primary-font;
-  color: white;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -51,6 +51,9 @@ nav a:hover{
 .main_btn {
     @include mixins.button ();
     font-family: typography.$primary-font;
+    background-color: black
+ 
+  
 }
 
 .sec_btn {
@@ -64,26 +67,76 @@ nav a:hover{
     h2 {font-family: typography.$title}
     p  {font-family: typography.$primary-font;}
     p2 {font-family: typography.$title}
+    p3 {font-family: typography.$title}
+    p4 {font-family: typography.$title}
 }
 
 .above {
-    display: flex;
+    
     article { 
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;}
-    p {text-align: center;}
+    p {text-align: center;
+      background-color:#fbd7ff;
+       padding: 15px;
+    width: 80%;
+    }
+   
 }
 
 
+.above {
+  p3 {
+    background-color: #FEBE49 ;
+    padding: 15px;
+    width: 80%;
+  }
+}
+
+.pay{
+  font-size: 2rem;
+  display: inline-grid;
+  display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+  }
+
+.above{
+  h1 {
+    padding-bottom: 0;
+  }
+}
+
+.above {
+  p4 {
+    font-size: 3rem;
+  }
+}
 
 
+.above {
+  p2 {
+    font-size: 1rem;
+  }
+}
 
 
+.above {
+  p {
+    font-size: 2rem;
+  }
+}
 
-
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 
 

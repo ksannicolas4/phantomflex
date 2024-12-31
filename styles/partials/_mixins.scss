@@ -1,11 +1,13 @@
-@mixin button (){ background-color: black;
+@mixin button (){ background-color: bl;
     color: white;
     border: none;
     border-radius: 7px;
-    padding: 5px;
-    width: 80px;
+    padding: 8px;
+    width: 400px;
     &:hover{  
-        background-color: gray;
+        background-color: #f8c0ff;
+        color: black;
     }
     
 }
+
